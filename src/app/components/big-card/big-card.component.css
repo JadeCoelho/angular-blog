@@ -23,3 +23,10 @@ img {
   font-size: 15px;
   text-align: justify;
 }
+
+@media screen and (max-width: 400px) {
+  .container-big-card {
+    height: 400px;
+    width: 300px;
+  }
+}

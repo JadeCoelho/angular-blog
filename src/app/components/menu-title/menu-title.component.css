@@ -7,3 +7,14 @@
 .menu-title-container hr{
   margin: 10px 0;
 }
+
+@media screen and (max-width: 700px) {
+  .menu-title-container h1{
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menu-title-container h1{
+    font-size: 45px;
+  }
+}
