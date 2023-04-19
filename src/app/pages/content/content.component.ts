@@ -11,6 +11,11 @@ export class ContentComponent implements OnInit {
   contentBanner!: string
   contentTitle!: string
   contentDesc!: string ;
+  indicacao!: string
+  requisitos!: string
+  usos!: string
+  pros!: string
+  contras!: string
   private id!: string | null;
 
   constructor(private route: ActivatedRoute) {
@@ -27,6 +32,11 @@ export class ContentComponent implements OnInit {
       this.contentBanner = res.img
       this.contentTitle = res.title
       this.contentDesc = res.desc
+      this.indicacao = res.indicacao
+      this.requisitos = res.requisitos
+      this.usos = res.usos
+      this.pros = res.pros
+      this.contras = res.contras
     }
   }
 }

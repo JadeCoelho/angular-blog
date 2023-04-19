@@ -1,6 +1,35 @@
 <div class="container-content">
-  <div class="content-banner"><img src="{{contentBanner}}" alt=""></div>
-  <div class="content-title"><h2>{{contentTitle}}</h2></div>
-  <div class="content-desc"><p>{{contentDesc}}</p></div>
+  <header>
+    <a
+      href="https://www.hostinger.com.br/tutoriais/linguagens-de-programacao-mais-usadas" target="_blank"
+      >Fonte</a
+    >
+  </header>
+
+  <div class="content-banner"><img src="{{ contentBanner }}" alt="" /></div>
+
+  <div class="content-title">
+    <h2>{{ contentTitle }}</h2>
+  </div>
+  <div class="content-desc">
+    <p>{{ contentDesc }}</p>
+  </div>
+  <ul class="content-list">
+    <li>
+      <strong>Indicado para:</strong> <span>{{ indicacao }}</span>
+    </li>
+    <li>
+      <strong>Requisitos:</strong> <span>{{ requisitos }}</span>
+    </li>
+    <li>
+      <strong>Usos:</strong> <span>{{ usos }}</span>
+    </li>
+    <li>
+      <strong>Prós:</strong> <span>{{ pros }}</span>
+    </li>
+    <li>
+      <strong>Contras:</strong> <span>{{ contras }}</span>
+    </li>
+  </ul>
 </div>
-<a routerLink=""  class='bx bx-left-arrow-alt'></a>
+<a routerLink="" class="bx bx-left-arrow-alt voltar"></a>
